@@ -1,0 +1,22 @@
+header
+	[same html structure]
+.container
+	.login-container
+		.loin-title
+			h2, p
+		.login-tabs
+			button.login-tab
+			button.login-tab
+		.login-form
+			form.login
+				input[type=text]
+				input[type=password]
+				button.btn-login
+				.login-sub-menu
+					label
+						input[type=checkbox], em
+					right-menu
+						a * 2
+footer
+	[same html structure]
+	

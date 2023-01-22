@@ -1,0 +1,35 @@
+header
+	[same html structure]
+.background-header
+.container
+	.hotel-room-detail-inner
+		.lnb
+			h3
+			ul.left-menus
+				(li > a) * 4
+		.hotel-room-detail
+			.hotel-room-detail-title
+				h3
+				.breadcrumb
+					span > font-icon,
+					span
+					span
+			.hotel-room-detail-content
+				h2, p
+				.hotel-room-detail-slide
+					a * 4
+				.hotel-thumbnail-list
+					img * 4
+				.hotel-info
+				.hotel-room-offer
+					.offer-list
+						h3
+						ul.offer
+							li * n
+					.hotel-price-info
+						h3
+						p
+footer
+	[same html structure]
+	
+	

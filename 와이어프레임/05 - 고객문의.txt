@@ -1,0 +1,36 @@
+header
+	[same html structure]
+.background-header
+.container
+	.inquire-inner
+		.lnb
+			h3
+			ul.left-menus
+				(li > a) * 4
+		.inquire
+			.inquire-title
+				h3
+				.breadcrumb
+					span > font-icon,
+					span
+					span
+			.inquire-content
+				.aree-check
+					h3
+					textarea
+					label
+						input[type=checkbox], em
+				.aree-check
+					h3
+					textarea
+					label
+						input[type=checkbox], em
+				table
+					tr
+						th
+						td
+				button.btn-save
+footer
+	[same html structure]
+	
+	

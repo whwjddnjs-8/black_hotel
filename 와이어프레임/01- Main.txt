@@ -1,0 +1,61 @@
+header
+	a
+	h2.logo
+	.menu
+		.upper-menu
+			a * 3
+		.main-menu
+			a * 3
+main
+	.home-content
+		.banner-fast-reservation
+			.main-banner
+				a * 4
+			.fast-reservation
+				.check-in
+					span
+					input[type=date]
+				.check-out
+					span
+					input[type=date]
+				.sleep-night
+					span
+				.person-number
+					span
+					input[type=text],span
+				button.btn-search
+		.hotel-main-summary
+			.main-summary-content
+				.main-summary
+					h2, p
+				img
+		.hotel-best-room
+			.best-room-title
+				h2.title, span
+			.best-room-content
+				.best-room
+					img
+					.best-room-summary
+						h3, p, span, button.btn-reservation
+		.hotel-swimming-pool
+			.swimming-pool-content
+				h2, buttn.btn-reservation
+		.hotel-service
+			.service-content
+				img, span
+		.hotel-area-of-use
+			.hotel-restaurant
+				h2, p, span
+			.hotel-lounge
+				h2, p, span		
+footer
+	.footer-content
+		.logo-sns
+			h2.logo
+			.sns
+				font-icon * 2
+		ul.footer-menu
+			li * 4
+		p
+		
+		

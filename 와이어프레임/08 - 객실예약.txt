@@ -1,0 +1,48 @@
+header
+	[same html structure]
+.container
+	.hotel-reservation-inner
+		h2
+		.length-of-stay
+			span
+			.date
+				input[type=date]
+				span
+				input[type=date]
+			button.btn-show
+		.select-rooms
+			h3
+			.room
+				img
+				.room-info
+					h3, span, span
+				.price-info
+					span, button.btn-select
+		.option-input-form
+			h3
+			form.option-input
+				h3
+				table
+					tr
+						th, td
+				h3
+				table
+					tr
+						th, td
+				h3
+				table
+					tr
+						th, td
+				h3
+				textarea
+				h3
+				textarea
+				label
+					input[type=checkbox], em
+			.btn-area	
+				button.btn-send
+				button.btn-cancel
+footer
+	[same html structure]
+	
+	
